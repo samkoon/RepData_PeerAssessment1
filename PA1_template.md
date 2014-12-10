@@ -30,24 +30,8 @@ head(dfnona)
 ```r
 library(ggplot2)
 library(lattice)
-library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(lubridate)
+library(dplyr)
 ```
 
 ### What is mean total number of steps taken per day?  

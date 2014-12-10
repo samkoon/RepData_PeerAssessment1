@@ -231,8 +231,11 @@ library(dplyr)
 
 <h3>What is mean total number of steps taken per day?</h3>
 
-<p>For this part of the assignment, you can ignore the missing values in the dataset.<br/>
-1. Make a histogram of the total number of steps taken each day.</p>
+<p>For this part of the assignment, you can ignore the missing values in the dataset.   </p>
+
+<ol>
+<li>Make a histogram of the total number of steps taken each day.</li>
+</ol>
 
 <pre><code class="r">ggplot(dfnona, aes(date, steps)) + 
         geom_bar(stat = &quot;identity&quot;, colour = &quot;red&quot;, fill = &#39;red&#39;, width = 0.7) + 
@@ -416,7 +419,7 @@ head(dfnew)
 
 <ol>
 <li>Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?<br/>
-The mean has the same value of 10766.19 for both orignal data set and inputted data set, however the median value for the inputted data set is higher compared to the previous data set with missiong data.<br/></li>
+The mean has the same value of 10766.19 for both orignal data set and inputted data set, however the median value for the inputted data set is higher compared to the previous data set with missing data.<br/></li>
 </ol>
 
 <h3>Are there differences in activity patterns between weekdays and weekends?</h3>
